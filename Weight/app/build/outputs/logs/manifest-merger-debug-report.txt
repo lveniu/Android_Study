@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:3:7-35
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:7:5-17:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\10903\.android\build-cache\b9e592d244eefcc11423a5a1cf127bb85e5fa016\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\10903\.android\build-cache\f78b7c9a78052225ddd7e8367858558fb91a35a8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\10903\.android\build-cache\09be9f9c760f6903be62283cb7b030ed30770ba9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\10903\.android\build-cache\1f1d5fbb8ee3eff3a16e1feb3ea15f4aa88d0010\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\10903\.android\build-cache\80e01ec74b16ab55303a21cc5d1a782db03b151f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\10903\.android\build-cache\24c5a2ca29c379afbace0747ec6f9e495c4c51a3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\10903\.android\build-cache\127fcbb6eabfe1162e8facd3e6dad6f5f5216363\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\10903\.android\build-cache\febd8143c1082b3e506650c1b2e2f6109cb7c1e6\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\10903\.android\build-cache\9ebadff28b2432a700b72f631b32ca4b72b8a97c\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:7:48-80
+	android:icon
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:7:18-47
+	android:theme
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:8:9-40
+activity#com.android.coding.Weight
+ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:9:9-15:20
+	android:label
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:10:19-51
+	android:name
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:9:19-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:11:13-14:29
+action#android.intent.action.MAIN
+ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:13:17-77
+	android:name
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:13:27-74
+activity#com.android.coding.Result
+ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:16:2-45
+	android:name
+		ADDED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml:16:12-33
+uses-sdk
+INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\10903\.android\build-cache\b9e592d244eefcc11423a5a1cf127bb85e5fa016\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\10903\.android\build-cache\f78b7c9a78052225ddd7e8367858558fb91a35a8\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\10903\.android\build-cache\09be9f9c760f6903be62283cb7b030ed30770ba9\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\10903\.android\build-cache\1f1d5fbb8ee3eff3a16e1feb3ea15f4aa88d0010\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\10903\.android\build-cache\80e01ec74b16ab55303a21cc5d1a782db03b151f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\10903\.android\build-cache\24c5a2ca29c379afbace0747ec6f9e495c4c51a3\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\10903\.android\build-cache\127fcbb6eabfe1162e8facd3e6dad6f5f5216363\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\10903\.android\build-cache\febd8143c1082b3e506650c1b2e2f6109cb7c1e6\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\10903\.android\build-cache\9ebadff28b2432a700b72f631b32ca4b72b8a97c\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.1] C:\Users\10903\.android\build-cache\b9e592d244eefcc11423a5a1cf127bb85e5fa016\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
+		INJECTED from G:\androidstudy_pro\02 Weight\app\src\main\AndroidManifest.xml
