@@ -1,0 +1,5 @@
+<resources>
+    <string name="title">hello,Spinner and arraylist</string>
+    <string name="app_name">SpinnerDemo2</string>
+    <string name="action_settings">Settings</string>
+</resources>
