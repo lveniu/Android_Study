@@ -5,8 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
 
     Button btn_0, btn_1, btn_2, btn_3, btn_4, btn_5,
             btn_6, btn_7, btn_8, btn_9, btn_equal,
@@ -18,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String s1,s2,s3;
     int flag = 0;
     int flag1 = 0;
-    int flag2 = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,6 +72,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_add.setOnClickListener(this);
         btn_reduce.setOnClickListener(this);
         et_input.setOnClickListener(this);
+
+        Toast toast=Toast.makeText(MainActivity.this,"这是可以随意设置时间的Toast", Toast.LENGTH_LONG);
+        showMyToast(toast,10*1000);
+
     }
 
     @Override
@@ -622,4 +630,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             et_input.setText(a);
         }
     }
+
+    public void showMyToast(final Toast toast, final int cnt)
+    {
+        final Timer timer = new Timer();
+        timer.schedule(new TimerTask(){
+            @Override
+            public void run() {
+                toast.show();
+            }
+        }, 0, 3000);
+        new Timer().schedule(new TimerTask() {
+            @Override
+            public void run() {
+                toast.cancel();
+                timer.cancel();
+            }
+        },cnt);}
 }
